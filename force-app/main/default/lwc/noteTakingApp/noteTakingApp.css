@@ -58,7 +58,7 @@ header{
     overflow: auto;
     padding: 4px 16px;
 }
-footer{
+.footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,4 +71,7 @@ footer{
     color: var(--dark-gray);
     font-size: 14px;
     font-style: italic;
+}
+.cursor{
+    cursor:pointer;
 }
